@@ -91,7 +91,7 @@ Deployment (future): Gunicorn, Heroku/AWS
 👨‍💻 Author
 Dasari Sony
 📧 Email: sonydasari230@gmail.com
-🔗 GitHub: https://github.com/SonyDasari666
-🔗 LinkedIn: https://www.linkedin.com/in/sonydasari230/
+🔗 GitHub:GitHub Profile
+🔗 LinkedIn: LinkedIn Profile
 
 ⭐ If you like this project, don’t forget to star the repo!
