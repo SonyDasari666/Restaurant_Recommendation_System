@@ -6,7 +6,7 @@ import pandas as pd
 # from sklearn.metrics.pairwise import cosine_similarity
 app = Flask(__name__)
 #import pandas as pd
-lko_rest = pd.read_csv("food1.csv")
+lko_rest = pd.read_csv("food1.csv").drop(columns=["Unnamed: 0"])
 
 def fav(lko_rest1):
     lko_rest1 = lko_rest1.reset_index()
