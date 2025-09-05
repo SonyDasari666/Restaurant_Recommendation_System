@@ -4,7 +4,11 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load CSV and drop unnecessary index column
-lko_rest = pd.read_excel("food1.csv.xlsx").drop(columns=["Unnamed: 0"])
+import pandas as pd
+
+# Load the CSV directly
+lko_rest = pd.read_csv("food1.csv").drop(columns=["Unnamed: 0"], errors="ignore")
+
 
 # Function to get similar restaurants
 def fav(lko_rest1):
